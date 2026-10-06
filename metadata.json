@@ -1,0 +1,6 @@
+{
+  "name": "Placement Tracker AI",
+  "description": "AI-Powered Placement Management Platform for Students, Colleges, and Recruiters with Readiness Scoring, Career Copilot, Resume Analysis, and Real-time Drive Tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
