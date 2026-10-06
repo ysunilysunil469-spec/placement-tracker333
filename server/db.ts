@@ -16,7 +16,7 @@ import {
   generateSeedApplications,
   SEED_NOTIFICATIONS,
   SEED_ACTIVITIES,
-} from './data/seedData';
+} from './data/seedData.js';
 
 const DATA_DIR = path.resolve(process.cwd(), 'data');
 const DB_FILE = path.join(DATA_DIR, 'db.json');

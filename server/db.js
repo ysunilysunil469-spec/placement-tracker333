@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { SEED_COMPANIES, SEED_JOBS, SEED_DRIVES, generateSeedStudents, generateSeedApplications, SEED_NOTIFICATIONS, SEED_ACTIVITIES, } from './data/seedData';
+import { SEED_COMPANIES, SEED_JOBS, SEED_DRIVES, generateSeedStudents, generateSeedApplications, SEED_NOTIFICATIONS, SEED_ACTIVITIES, } from './data/seedData.js';
 const DATA_DIR = path.resolve(process.cwd(), 'data');
 const DB_FILE = path.join(DATA_DIR, 'db.json');
 class Database {

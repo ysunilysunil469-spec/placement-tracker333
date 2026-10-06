@@ -2,7 +2,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
-import { db } from './server/db';
+import { db } from './server/db.js';
 import {
   evaluatePlacementReadiness,
   generateCopilotResponse,
@@ -10,7 +10,7 @@ import {
   calculateJobMatch,
   generateInterviewQuestions,
   evaluateInterviewAnswer,
-} from './server/aiService';
+} from './server/aiService.js';
 
 dotenv.config();
 
